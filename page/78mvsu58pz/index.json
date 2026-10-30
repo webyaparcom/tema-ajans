@@ -1,0 +1,39 @@
+{
+  "id": "78mvsu58pz",
+  "name": {
+    "tr": "İşlerimiz",
+    "en": "Our Work",
+    "ar": "أعمالنا"
+  },
+  "description": {
+    "tr": "Gösterilen işler kurgusal markalar için hazırlanmış örnek çalışmalardır; gerçek bir müşterinin işi, logosu ya da markası yazılı izin olmadan yayımlanmaz.",
+    "en": "The work shown consists of samples made for fictional brands; a real client’s work, logo or brand is never published without written permission.",
+    "ar": "الأعمال المعروضة نماذج أُعدّت لعلامات تجارية افتراضية؛ ولا يُنشر عمل أي عميل حقيقي أو شعاره أو علامته دون إذن كتابي."
+  },
+  "keyword": {
+    "tr": "galeri, fotoğraf",
+    "en": "gallery, photos",
+    "ar": "معرض، صور"
+  },
+  "path": "galeri",
+  "icon": "photo_library",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "9dgmi3"
+    ],
+    "footer": []
+  },
+  "index": 3,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "İşlerimiz",
+    "en": "Our Work",
+    "ar": "أعمالنا"
+  },
+  "date": "2026-10-30T21:55:54.807Z",
+  "update": "2026-10-30T21:55:54.820Z"
+}

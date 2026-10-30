@@ -1,0 +1,54 @@
+{
+  "order": false,
+  "user": false,
+  "description": {
+    "tr": "Pusula Ajans: marka kimliği, dijital reklam, sosyal medya ve prodüksiyon; örnek işler ve teklif talebi. (Demo site)",
+    "en": "Pusula Agency: brand identity, digital advertising, social media and production; sample work and quote requests. (Demo site)",
+    "ar": "وكالة بوصلة: هوية العلامة التجارية والإعلان الرقمي ووسائل التواصل والإنتاج، مع أعمال نموذجية وطلب عرض سعر. (موقع تجريبي)"
+  },
+  "keyword": {
+    "tr": "reklam ajansı, dijital ajans, marka",
+    "en": "advertising agency, digital agency, branding",
+    "ar": "وكالة إعلان، وكالة رقمية، علامة تجارية"
+  },
+  "category": "Kurumsal",
+  "name": "Pusula Ajans",
+  "domain": "ajans.webyapar.com",
+  "langs": {
+    "tr": true,
+    "en": true,
+    "ar": true,
+    "de": false,
+    "ru": false,
+    "es": false,
+    "fr": false,
+    "it": false,
+    "ja": false,
+    "zh": false,
+    "ko": false,
+    "pt": false
+  },
+  "logo": "logo.png",
+  "multi": false,
+  "publishMode": "static",
+  "font": {
+    "body": "inter",
+    "heading": "montserrat",
+    "ar": {
+      "body": "ibm-plex-sans-arabic",
+      "heading": "noto-kufi-arabic"
+    }
+  },
+  "colorScheme": "auto",
+  "theme_color": "#111111",
+  "seo": {
+    "noindex": true
+  },
+  "cssTokens": {
+    "--mx-radius-sm": "2px",
+    "--mx-radius-md": "4px",
+    "--mx-radius-lg": "6px",
+    "--mx-radius-xl": "8px"
+  },
+  "icon": "icon.png"
+}

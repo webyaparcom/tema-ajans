@@ -1,0 +1,41 @@
+{
+  "id": "rolxydqq7s",
+  "name": {
+    "tr": "Hizmetlerimiz",
+    "en": "Services",
+    "ar": "خدماتنا"
+  },
+  "description": {
+    "tr": "Stratejiden üretime, tek ekipten altı hizmet alanı.",
+    "en": "From strategy to production, six service areas from one team.",
+    "ar": "من الاستراتيجية إلى الإنتاج، ست مجالات خدمة من فريق واحد."
+  },
+  "keyword": {
+    "tr": "reklam ajansı, dijital ajans, marka",
+    "en": "advertising agency, digital agency, branding",
+    "ar": "وكالة إعلان، وكالة رقمية، علامة تجارية"
+  },
+  "path": "hizmetlerimiz",
+  "icon": "campaign",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "l4r18q",
+      "iki4v5",
+      "tu3qi4"
+    ],
+    "footer": []
+  },
+  "index": 0,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Hizmetlerimiz",
+    "en": "Services",
+    "ar": "خدماتنا"
+  },
+  "date": "2026-10-30T21:55:54.787Z",
+  "update": "2026-10-30T21:55:54.791Z"
+}
