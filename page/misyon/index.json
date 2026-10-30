@@ -1,0 +1,41 @@
+{
+  "id": "misyon",
+  "name": {
+    "tr": "Misyon",
+    "en": "Mission",
+    "ar": "المهمة"
+  },
+  "description": {
+    "tr": "Misyonumuz",
+    "en": "Our mission",
+    "ar": "مهمتنا"
+  },
+  "keyword": {
+    "tr": "",
+    "en": "",
+    "ar": ""
+  },
+  "path": "misyon",
+  "icon": "flag",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "index": 0,
+  "url": "",
+  "text": {
+    "tr": "<h2>Misyonumuz</h2>\n<p>Misyonumuz, markaların kendi dilini bulmasına yardım eden, izinli ve dürüst işler üretmektir.</p>",
+    "en": "<h2>Our mission</h2>\n<p>Our mission is to produce permissioned, honest work that helps brands find their own voice.</p>",
+    "ar": "<h2>مهمتنا</h2>\n<p>مهمتنا إنتاج أعمال مأذون بها وصادقة تساعد العلامات على إيجاد صوتها.</p>"
+  },
+  "title": {
+    "tr": "Misyon",
+    "en": "Mission",
+    "ar": "المهمة"
+  },
+  "date": "2026-10-30T21:55:54.378Z",
+  "update": "2026-10-30T21:55:54.847Z"
+}

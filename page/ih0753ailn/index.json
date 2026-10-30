@@ -1,0 +1,39 @@
+{
+  "id": "ih0753ailn",
+  "name": {
+    "tr": "Teklif Al",
+    "en": "Get a Quote",
+    "ar": "اطلب عرض سعر"
+  },
+  "description": {
+    "tr": "Konuyu seçin, size uygun günü işaretleyin; talebiniz bu demo sitede yalnızca tarayıcınızda oluşturulur.",
+    "en": "Choose a topic and a convenient day; on this demo site your request is created only in your browser.",
+    "ar": "اختر الموضوع واليوم المناسب؛ في هذا الموقع التجريبي يُنشأ طلبك في متصفحك فقط."
+  },
+  "keyword": {
+    "tr": "reklam ajansı, dijital ajans, marka",
+    "en": "advertising agency, digital agency, branding",
+    "ar": "وكالة إعلان، وكالة رقمية، علامة تجارية"
+  },
+  "path": "teklif-al",
+  "icon": "request_quote",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "kqr6lm"
+    ],
+    "footer": []
+  },
+  "index": 1,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Teklif Al",
+    "en": "Get a Quote",
+    "ar": "اطلب عرض سعر"
+  },
+  "date": "2026-10-30T21:55:54.794Z",
+  "update": "2026-10-30T21:55:54.798Z"
+}

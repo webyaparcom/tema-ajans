@@ -1,0 +1,48 @@
+{
+  "name": {
+    "tr": "Hakkımızda",
+    "en": "About",
+    "ar": "من نحن"
+  },
+  "status": "play",
+  "category": "",
+  "id": "hakkimizda",
+  "url": "",
+  "path": "hakkimizda",
+  "index": 4,
+  "icon": "info",
+  "desing": {
+    "header": [],
+    "body": [
+      "7ww3lx",
+      "1axilj",
+      "gbmnuy"
+    ],
+    "footer": []
+  },
+  "pathnext": "",
+  "description": {
+    "tr": "Pusula Ajans, strateji, tasarım ve üretimi tek ekipte toplayan kurgusal bir demo ajanstır. Bu sitedeki işler ve markalar kurgusaldır.",
+    "en": "Pusula Agency is a fictional demo agency that brings strategy, design and production into one team. The work and brands on this site are fictional.",
+    "ar": "وكالة بوصلة وكالة تجريبية افتراضية تجمع الاستراتيجية والتصميم والإنتاج في فريق واحد. الأعمال والعلامات في هذا الموقع افتراضية."
+  },
+  "spot": {
+    "tr": "",
+    "en": "",
+    "ar": ""
+  },
+  "desc": {},
+  "title": {
+    "tr": "Hakkımızda",
+    "en": "About",
+    "ar": "من نحن"
+  },
+  "keyword": {
+    "tr": "hakkımızda",
+    "en": "about",
+    "ar": "من نحن"
+  },
+  "text": {},
+  "update": "2026-10-30T21:55:54.832Z",
+  "date": "2026-10-30"
+}
