@@ -36,7 +36,8 @@
           "tr": "Üye Girişi",
           "en": "Login",
           "ar": "تسجيل الدخول"
-        }
+        },
+        "hataBildir": "https://webyapar.com/api/portal/tema-hata.js"
       },
       "version": "1.0.0",
       "icon": "info",
@@ -4375,97 +4376,111 @@
       "index": 22
     },
     {
-      "name": "Ekip 1",
+      "name": "Ekip Sahnesi — büyük portre + üye listesi",
       "desing": {
         "max": "1200px",
         "bgcolor": "var(--mx-site-bg, #ffffff)",
-        "cardbg": "var(--mx-site-surface, #ffffff)",
-        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
-        "titlecolor": "var(--mx-site-text, #1b1b1b)",
-        "textcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
         "accent": "var(--mx-site-primary, #2563eb)",
-        "badge": {
+        "linecolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
+        "bg": "var(--mx-site-bg, #ffffff)",
+        "text": "var(--mx-site-text, #1b1b1b)",
+        "muted": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
+        "kartBg": "var(--mx-site-surface, #ffffff)",
+        "cizgi": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
+        "accentText": "#ffffff",
+        "ust": {
           "tr": "Ekibimiz",
           "en": "Our team",
           "ar": "فريقنا"
         },
-        "title": {
+        "baslik": {
           "tr": "Ajans ekibi",
           "en": "The agency team",
           "ar": "فريق الوكالة"
         },
-        "description": {
+        "metin": {
           "tr": "Kurgusal örnek kadro; fotoğraf kullanılmamıştır.",
           "en": "A fictional sample team; no photographs are used.",
           "ar": "فريق افتراضي للعرض؛ دون استخدام صور."
         },
-        "linecolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
-        "accentText": "#ffffff"
+        "yuvarlak": "28px",
+        "accentInk": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 70%, var(--mx-site-text, #111318))",
+        "color": "var(--mx-site-text, #111318)"
       },
       "data": [
         {
-          "name": {
+          "ad": {
             "tr": "Deniz Akın",
             "en": "Deniz Akin",
             "ar": "دنيز أكين"
           },
-          "role": {
+          "unvan": {
             "tr": "Kreatif direktör",
             "en": "Creative director",
             "ar": "مدير إبداعي"
           },
-          "bio": {
+          "metin": {
             "tr": "Marka kimliği ve kampanya fikirlerini yönetir.",
             "en": "Leads brand identity and campaign ideas.",
             "ar": "يقود هوية العلامة وأفكار الحملات."
-          },
-          "img": ""
+          }
         },
         {
-          "name": {
+          "ad": {
             "tr": "Ece Tunç",
             "en": "Ece Tunc",
             "ar": "إجه تونتش"
           },
-          "role": {
+          "unvan": {
             "tr": "Dijital strateji",
             "en": "Digital strategy",
             "ar": "الاستراتيجية الرقمية"
           },
-          "bio": {
+          "metin": {
             "tr": "Reklam planlarını ve ölçüm süreçlerini yürütür.",
             "en": "Runs ad plans and measurement.",
             "ar": "تدير خطط الإعلان وعمليات القياس."
-          },
-          "img": ""
+          }
         },
         {
-          "name": {
+          "ad": {
             "tr": "Kaan Yurt",
             "en": "Kaan Yurt",
             "ar": "كان يورت"
           },
-          "role": {
+          "unvan": {
             "tr": "Video yönetmeni",
             "en": "Video director",
             "ar": "مخرج فيديو"
           },
-          "bio": {
+          "metin": {
             "tr": "Tanıtım filmlerinin çekim ve kurgusunu yönetir.",
             "en": "Directs the shooting and editing of promo films.",
             "ar": "يدير تصوير ومونتاج الأفلام الترويجية."
-          },
-          "img": ""
+          }
         }
       ],
       "category": "team",
-      "description": "Ekip üyeleri modülü. Fotoğraf, isim, unvan ve kısa biyografiyi responsive kart grid'inde gösterir. Fotoğraf yoksa ikon fallback, çok dilli unvan/biyografi ve animasyonlu giriş içerir.",
+      "description": "team-1 / team-2 (eşit kart ızgarası) görsel alternatifi: tek büyük portre + biyografi «sahnesi», yanında üye listesi (WAI-ARIA sekme kalıbı, ok/Home/End tuşları; RTL'de oklar çevrilir). Seçilen üye sahneye geçişle gelir; 1024px altında liste sahnenin üstünde yatay şerit. Görsel yoksa baş harf monogramı; e-posta ve üye sosyal bağlantıları (yalnız http/https) doluysa. JS'siz tüm üyeler alt alta görünür. Metinler dil sözlüğü; renkler desing + var(--mx-site-*); mantıksal CSS → RTL. Veri yoksa blok basılmaz.",
       "version": "1.0.0",
       "icon": "groups",
       "id": "gbmnuy",
-      "path": "team-1",
+      "path": "ekip-sahne",
       "local": "body",
-      "index": 23
+      "index": 23,
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "data",
+        "alanlar": {
+          "ad": "metin ya da dil sözlüğü (zorunlu)",
+          "unvan": "dil sözlüğü",
+          "metin": "dil sözlüğü (biyografi)",
+          "img": "portre (4:5)",
+          "eposta": "e-posta",
+          "social": "[{ ad, url }] yalnız http/https"
+        }
+      }
     },
     {
       "name": "Randevu / Rezervasyon Formu",
